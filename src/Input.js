@@ -9,7 +9,6 @@ const Input = ({
 }) => {
   return (
     <form onSubmit={(e) => e.preventDefault()}>
-      <label>Add Color Name: </label>
       <input
         type="text"
         value={colorValue}
